@@ -43,6 +43,11 @@ Select your agent on the top-left dropdown menu. Then, click **Settings** to get
 ![](screenshots/dialogflow-settings.png)
 
 ## 9. Setup Dialogflow for your page
-Back to Chatbotman app, Copy your **developer access token** to the Facebook Page Settings. Then, click **Finish** to finish the first setup.
+Back to Chatbotman app, copy your **developer access token** to the Facebook Page Settings. Then, click **Finish** to finish the first setup.
 
 ![](screenshots/setup-dialogflow.png)
+
+## Well Done
+Now, you have already connected a new chatbot to your Facebook page using our Chatbotman app. You can send "Hi" to your page using Facebook Messenger and see whether you get the default fallback response by the chatbot.
+
+Usually, you may get a response like "I didn't get that. Can you say it again?" which is because your agent have no intent for handling your message. To make the chatbot really works, you need to read the [documentation](https://dialogflow.com/docs/getting-started/building-your-first-agent) by Dialogflow to learn how to create intents and entities in your Dialogflow agent.
