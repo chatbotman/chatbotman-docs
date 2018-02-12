@@ -1,3 +1,5 @@
+title: License
+---
 MIT License
 
 Copyright (c) 2018-present, Chatbotman Ltd.

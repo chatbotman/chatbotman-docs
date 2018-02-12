@@ -18,10 +18,10 @@ page:
   last_updated: "Last updated: %s"
 
 sidebar:
-  docs:
+  index:
     getting_started: Getting Started
     overview: Overview
-    setup: Setup
+    setup: Setup Your First Chatbot
     configuration: Configuration
     commands: Commands
     migration: Migration
@@ -36,18 +36,6 @@ sidebar:
     deployment: Deployment
     advance_usage: Advance Usage
     handover: Handover
-    customization: Customization
-    permalinks: Permalinks
-    themes: Themes
-    structure: Structure
-    templates: Templates
-    variables: Variables
-    helpers: Helpers
-    internationalization: Internationalization (i18n)
-    plugins: Plugins
-    miscellaneous: Miscellaneous
-    troubleshooting: Troubleshooting
-    contributing: Contributing
   api:
     core: Core
     overview: Overview
