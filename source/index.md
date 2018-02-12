@@ -8,7 +8,7 @@ Chatbotman is a powerful tool for creating an intelligent Facebook chatbot with 
 
 ## How to use?
 
-Go to [Chatbotman app](https://app.chatbotman.com/) first, then login with your Facebook account. Then follow the Setup step to create your own chatbot.
+Go to [Chatbotman app](https://app.chatbotman.com/) first, then login with your Facebook account. Then follow the [Setup](setup.html) tutorial to create your own chatbot.
 
 ### Requirements
 
