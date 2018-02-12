@@ -36,6 +36,7 @@ sidebar:
     deployment: Deployment
     advance_usage: Advance Usage
     handover: Handover
+    trigger_event: Trigger Event
     customization: Customization
     permalinks: Permalinks
     themes: Themes

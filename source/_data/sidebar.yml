@@ -17,6 +17,7 @@ docs:
     deployment: deployment.html
   advance_usage:
     handover: handover.html
+    trigger_event: trigger_event.html
 
   customization:
     permalinks: permalinks.html
