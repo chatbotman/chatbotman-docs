@@ -32,7 +32,7 @@ Click [here](https://console.dialogflow.com/api-client/#/login) to login to your
 
 ![](screenshots/dialogflow-login.png)
 
-## 7. Create a ## 7. Create a Dialogflow Agent
+## 7. Create a Dialogflow Agent
 Click the dropdown menu on the top-left corner. Then, type an agent name you like and click **Create** to create agent.
 
 ![](screenshots/dialogflow-create-agent.png)
