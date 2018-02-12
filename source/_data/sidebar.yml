@@ -1,7 +1,6 @@
-docs:
+index:
   getting_started:
     overview: index.html
-
     setup: setup.html
     configuration: configuration.html
     commands: commands.html
