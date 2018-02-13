@@ -6,29 +6,29 @@ index:
     customers: customers.html
     # commands: commands.html
     # migration: migration.html
-  basic_usage:
-    writing: writing.html
-    front_matter: front-matter.html
-    tag_plugins: tag-plugins.html
-    asset_folders: asset-folders.html
-    data_files: data-files.html
-    server: server.html
-    generating: generating.html
-    deployment: deployment.html
+  # basic_usage:
+  #   writing: writing.html
+  #   front_matter: front-matter.html
+  #   tag_plugins: tag-plugins.html
+  #   asset_folders: asset-folders.html
+  #   data_files: data-files.html
+  #   server: server.html
+  #   generating: generating.html
+  #   deployment: deployment.html
   advance_usage:
     handover: handover.html
 
-  customization:
-    permalinks: permalinks.html
-    themes: themes.html
-    templates: templates.html
-    variables: variables.html
-    helpers: helpers.html
-    internationalization: internationalization.html
-    plugins: plugins.html
-  miscellaneous:
-    troubleshooting: troubleshooting.html
-    contributing: contributing.html
+  # customization:
+  #   permalinks: permalinks.html
+  #   themes: themes.html
+  #   templates: templates.html
+  #   variables: variables.html
+  #   helpers: helpers.html
+  #   internationalization: internationalization.html
+  #   plugins: plugins.html
+  # miscellaneous:
+  #   troubleshooting: troubleshooting.html
+  #   contributing: contributing.html
 
 api:
   core:
