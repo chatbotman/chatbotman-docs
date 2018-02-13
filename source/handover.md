@@ -1,65 +1,28 @@
-title: This is a test
+title: Handover to Page Inbox App
 ---
 
-{% youtube AIqBubK6ZLc %}
+Sometimes you may want to pass the conversation from a bot to a live agent for various reasons. Chatbotman has built-in support for passing the conversation to Facebook Page Inbox App.
 
-To create a new post or a new page, you can run the following command:
+Facebook supports [passing the thread control](https://developers.facebook.com/docs/messenger-platform/reference/handover-protocol/pass-thread-control) of a primary receiver to a secondary receiver.
 
-``` bash
-$ hexo new [layout] <title>
-```
+### Setup
 
-`post` is the default `layout`, but you can supply your own. You can change the default layout by editing the `default_layout` setting in `_config.yml`.
+You need to manually configure Chatbotman as the primary receiver.
 
-### Layout
+Go to your page -> Settings -> Messenger Platform. Choose Chatbotman as the "Primary Receiver" and Page Inbox as "Secondary Receiver"
 
-There are three default layouts in Hexo: `post`, `page` and `draft`. Files created by each of them is saved to a different path. Newly created posts are saved to the `source/_posts` folder.
+![](/images/handover/page_settings.png)
 
-Layout | Path
---- | ---
-`post` | `source/_posts`
-`page` | `source`
-`draft` | `source/_drafts`
 
-{% note tip Don't process my posts! %}
-If you don't want your posts processed, you can set `layout: false` in front-matter.
-{% endnote %}
+### Pass control to Page Inbox
 
-### Filename
+You can pass the control to Page Inbox App by specifying the action of the intent as `Chatbotman_PassThreadControl`. Any intent configured with action `Chatbotman_PassThreadControl` will pass the current thread control to Page Inbox App
 
-By default, Hexo uses the post title as its filename. You can edit the `new_post_name` setting in `_config.yml` to change the default filename. For example, `:year-:month-:day-:title.md` will prefix filenames with the post creation date. You can use the following placeholders:
+![](/images/handover/pass_thread_control_intent.png)
 
-Placeholder | Description
---- | ---
-`:title` | Post title (lower case, with spaces replaced by hyphens)
-`:year` | Created year, e.g. `2015`
-`:month` | Created month (leading zeros), e.g. `04`
-`:i_month` | Created month (no leading zeros), e.g. `4`
-`:day` | Created day (leading zeros), e.g. `07`
-`:i_day` | Created day (no leading zeros), e.g. `7`
 
-### Drafts
+### Pass control back to Chatbotman
 
-Previously, we mentioned a special layout in Hexo: `draft`. Posts initialized with this layout are saved to the `source/_drafts` folder. You can use the `publish` command to move drafts to the `source/_posts` folder. `publish` works in a similar way to the `new` command.
+Once your agent is finished with the customer in the Page Inbox App, they simply just click the "Mark as Done" button in the Page Inbox App. The conversation thread will be moved to the Done folder and the  control will be passed back to Chatbotman.
 
-``` bash
-$ hexo publish [layout] <title>
-```
-
-Drafts are not displayed by default. You can add the `--draft` option when running Hexo or enable the `render_drafts` setting in `_config.yml` to render drafts.
-
-### Scaffolds
-
-When creating posts, Hexo will build files based on the corresponding file in `scaffolds` folder. For example:
-
-``` bash
-$ hexo new photo "My Gallery"
-```
-
-When you run this command, Hexo will try to find `photo.md` in the `scaffolds` folder and build the post based on it. The following placeholders are available in scaffolds:
-
-Placeholder | Description
---- | ---
-`layout` | Layout
-`title` | Title
-`date` | File created date
+![](/images/handover/mark_as_done.png)
