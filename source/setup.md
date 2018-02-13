@@ -47,7 +47,7 @@ Back to Chatbotman app, copy your **developer access token** to the Facebook Pag
 
 ![](screenshots/setup-dialogflow.png)
 
-## Well Done
+## Step 10: Test it
 Now, you have already connected a new chatbot to your Facebook page using our Chatbotman app. You can send "Hey" to your Facebook page using [Facebook Messenger](https://www.messenger.com/) and see whether you get the default fallback response by the chatbot.
 
 ![](screenshots/basic-chatbot-test.png)

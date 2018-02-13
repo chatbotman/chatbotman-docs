@@ -3,6 +3,7 @@ index:
     overview: index.html
     setup: setup.html
     privateReply: privateReply.html
+    customers: customers.html
     # commands: commands.html
     # migration: migration.html
   basic_usage:

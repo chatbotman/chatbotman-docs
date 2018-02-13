@@ -23,6 +23,7 @@ sidebar:
     overview: Overview
     setup: Setup Your First Chatbot
     privateReply: Create a Private Reply
+    customers: See Who Interact with Bot
     commands: Commands
     migration: Migration
     basic_usage: Basic Usage
