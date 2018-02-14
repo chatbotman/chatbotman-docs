@@ -61,7 +61,8 @@ Finally, give a name for your campaign, then click **Create** to create your cam
 
 ![](screenshots/create-campaign-name.png)
 
-# Edit a Campaign
+# Edit / View a Campaign
+Please note that you can only update the campaign the when the campaign status is in **Scheduled**.
 
 ## Step 1: Find your Campaign
 In **Campaigns**, find your campaign and click it to edit.
@@ -78,7 +79,7 @@ If you have finished this step, click **Next** to continue.
 
 ![](screenshots/campaign-settings.png)
 
-## Edit your Campaign
+## Edit / View your Campaign
 The other sections are the same to **Create Campaign**. In the final section, click the **Update** button to update the campaign.
 
 ![](screenshots/update-campaign.png)
