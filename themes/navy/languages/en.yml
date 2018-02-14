@@ -24,6 +24,7 @@ sidebar:
     setup: Setup Your First Chatbot
     privateReply: Create a Private Reply
     customers: See Who Interact with Bot
+    campaigns: Make a Campagin
     commands: Commands
     migration: Migration
     basic_usage: Basic Usage
