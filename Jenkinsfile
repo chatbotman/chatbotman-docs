@@ -10,7 +10,7 @@ pipeline {
             agent {
                 docker {
                     image 'proactivehk/docker-hexo'
-                    // args "-u root"
+                    args "-u root"
                 }
             }
             steps {
