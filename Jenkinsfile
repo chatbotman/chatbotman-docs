@@ -19,11 +19,11 @@ pipeline {
 
                 withCredentials([sshUserPrivateKey(credentialsId: "chatbotman_docs_github", keyFileVariable: 'keyfile')]) {
                     //  sh "scp -i ${keyfile} do sth here"
+                    sh 'mkdir -p ~/.ssh'
+                    sh 'ssh-keyscan github.com >> known_hosts'
                     sh "echo helloworlddd"
                     sh "hexo deploy --generate"
                 }
-
-
             }
         }
     }
