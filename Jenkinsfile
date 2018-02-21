@@ -16,7 +16,12 @@ pipeline {
             steps {
                 sh "pwd"
                 sh "npm install"
-                sh "hexo deploy --generate"
+
+                withCredentials([sshUserPrivateKey(credentialsId: "chatbotman_docs_github")]) {
+                     sh "hexo deploy --generate"
+                }
+
+
             }
         }
     }
