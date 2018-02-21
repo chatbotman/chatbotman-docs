@@ -18,8 +18,18 @@ index:
   #   deployment: deployment.html
   advance_usage:
     handover: handover.html
-    trigger_event: trigger_event.html
-
+    takeover: takeover.html
+    switch_language: switchLanguage.html
+    subscribe: subscribe.html
+    unsubscribe: unsubscribe.html
+    label_user: labelUser.html
+    trigger_event: triggerEvent.html
+  create_an_extension:
+    introduction: extension.html
+    getting_started: gettingStarted.html
+    sending_message: sendingMessage.html
+    security: security.html
+    extension_example: extensionExample.html
   # customization:
   #   permalinks: permalinks.html
   #   themes: themes.html

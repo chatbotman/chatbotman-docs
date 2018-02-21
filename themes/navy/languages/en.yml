@@ -38,7 +38,18 @@ sidebar:
     deployment: Deployment
     advance_usage: Advance Usage
     handover: Handover
+    takeover: Takeover
     trigger_event: Trigger Event
+    switch_language: Switch Language
+    subscribe: Subscribe
+    unsubscribe: Unsubscribe
+    label_user: Label User
+    introduction: Introduction
+    quick_start: Quick Start
+    use_case: Use Case
+    create_an_extension: Create an Extension
+    extension_example: Extension Example
+    getting_started: Getting Started
   api:
     core: Core
     overview: Overview
