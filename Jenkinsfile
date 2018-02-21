@@ -15,14 +15,15 @@ pipeline {
             }
             steps {
                 sh "pwd"
-                // sh "npm install"
+                sh "npm install"
 
                 withCredentials([sshUserPrivateKey(credentialsId: "chatbotman_docs_github", keyFileVariable: 'keyfile')]) {
                     //  sh "scp -i ${keyfile} do sth here"
                     sh "echo helloworlddd"
+                    sh "hexo deploy --generate"
                 }
 
-                // sh "hexo deploy --generate"
+
             }
         }
     }
