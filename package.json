@@ -6,9 +6,10 @@
     "version": "3.5.0"
   },
   "scripts": {
+    "start": "hexo server",
     "build": "hexo generate && gulp",
     "eslint": "eslint .",
-    "deploy": "hexo deploy"
+    "deploy": "hexo deploy -g"
   },
   "dependencies": {
     "cheerio": "^0.20.0",

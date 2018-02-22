@@ -8,12 +8,12 @@ Campaign is a Powerful tool to Broadcast your promotional or non-promotional Mes
 ## Step 1: Go to Campaign
 Go to **Campaigns**, and click **Create Campaign** to create a campaign.
 
-![](screenshots/campaigns.png)
+![](/screenshots/campaigns.png)
 
 ## Step 2: Campaign Mechanism
 In the **Campaign Mechanism** section, you can choose whether the broadcast campaign will be sent out by scheduled time or immediately. If **Send by Scheduled Time** is chosen, you also need to specify the scheduled time. Then, click **Next** to continue.
 
-![](screenshots/create-campaign-mechanism.png)
+![](/screenshots/create-campaign-mechanism.png)
 
 ## Step 3: Campaign Details
 In the **Campaign Details** section, we assume that you need to choose whether the broadcast message is a **promotional message** or **non-promotional message** since it is under different policies. Currently, only **non-promotional message** is available as Chatbotman is still on beta version. For more details, please read [Messenger Platform - Platform Policy Overview](https://developers.facebook.com/docs/messenger-platform/policy/policy-overview).
@@ -22,26 +22,26 @@ If **Non-promotional Message** is chosen, you also need to specify the type of t
 
 If you have finished this step, click **Next** to continue.
 
-![](screenshots/create-campaign-details.png)
+![](/screenshots/create-campaign-details.png)
 
 ## Step 4: Campaign Dialogs
 In **Campaign Dialogs** section, you can build your broadcast message.
 
-![](screenshots/create-campaign-build-text-message.png)
+![](/screenshots/create-campaign-build-text-message.png)
 
 By default, **Text Response** is added for you. If you want to send other message format, you can remove the **Text Response** by clicking the **Trash** button on the top right corner. Then, add another type of message.
 
-![](screenshots/create-campaign-build-message-choose.png)
+![](/screenshots/create-campaign-build-message-choose.png)
 
 Say, if you **Quick Replies** message is selected, you need to input a **Title** as well as the **Quick Reply Options**.
 
-![](screenshots/create-campaign-quick-replies.png)
+![](/screenshots/create-campaign-quick-replies.png)
 
 If your are finished editing your message, you can test your message by using the **Test Message** button on the top right corner. But please remind that you should tick the **Send to Messenger** checkbox first to allow us to send message to your Facebook account.
 
 If you try the **Test Message** button successfully, you will get your test message like this.
 
-![](screenshots/create-campaign-test-message.png)
+![](/screenshots/create-campaign-test-message.png)
 
 If you have finished this step, click **Next** to continue.
 
@@ -54,12 +54,12 @@ You may see a circle on the right which can estimate how many recipients will re
 
 If you have finished this step, click **Next** to continue.
 
-![](screenshots/create-campaign-filter-recipients.png)
+![](/screenshots/create-campaign-filter-recipients.png)
 
 ## Step 6: Give a Name for Your Campaign
 Finally, give a name for your campaign, then click **Create** to create your campaign.
 
-![](screenshots/create-campaign-name.png)
+![](/screenshots/create-campaign-name.png)
 
 # Edit / View a Campaign
 Please note that you can only update the campaign the when the campaign status is in **Scheduled**.
@@ -67,7 +67,7 @@ Please note that you can only update the campaign the when the campaign status i
 ## Step 1: Find your Campaign
 In **Campaigns**, find your campaign and click it to edit.
 
-![](screenshots/find-your-campaign.png)
+![](/screenshots/find-your-campaign.png)
 
 
 ## Step 2: Campaign Settings
@@ -77,11 +77,11 @@ You can disable the campaign only when the campaign status is in **Scheduled**. 
 
 If you have finished this step, click **Next** to continue.
 
-![](screenshots/campaign-settings.png)
+![](/screenshots/campaign-settings.png)
 
 ## Edit / View your Campaign
 The other sections are the same to **Create Campaign**. In the final section, click the **Update** button to update the campaign.
 
-![](screenshots/update-campaign.png)
+![](/screenshots/update-campaign.png)
 
 ## That's Easy🙃

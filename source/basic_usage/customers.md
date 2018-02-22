@@ -5,6 +5,6 @@ Generally, if you are the marketers who Want to Promote your Facebook Page, you 
 ## Customers
 In **Customers** section, you can see all the followers who interact with your chatbot. Later on, we will add more features for your chatbot marketing analysis.
 
-![](screenshots/customers.png)
+![](/screenshots/customers.png)
 
 ## Now, you know how Chatbotman Simple and Useful is😄

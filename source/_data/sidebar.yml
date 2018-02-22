@@ -1,47 +1,24 @@
 index:
-  getting_started:
-    overview: index.html
-    setup: setup.html
-    privateReply: privateReply.html
-    customers: customers.html
-    campaigns: campaigns.html
-    # commands: commands.html
-    # migration: migration.html
-  # basic_usage:
-  #   writing: writing.html
-  #   front_matter: front-matter.html
-  #   tag_plugins: tag-plugins.html
-  #   asset_folders: asset-folders.html
-  #   data_files: data-files.html
-  #   server: server.html
-  #   generating: generating.html
-  #   deployment: deployment.html
+  basic_usage:
+    overview: /index.html
+    setup: /basic_usage/setup.html
+    privateReply: /basic_usage/private_reply.html
+    customers: /basic_usage/customers.html
+    campaigns: /basic_usage/campaigns.html
   advance_usage:
-    handover: handover.html
-    takeover: takeover.html
-    switch_language: switchLanguage.html
-    subscribe: subscribe.html
-    unsubscribe: unsubscribe.html
-    label_user: labelUser.html
-    trigger_event: triggerEvent.html
-  create_an_extension:
-    introduction: extension.html
-    getting_started: gettingStarted.html
-    sending_message: sendingMessage.html
-    security: security.html
-    extension_example: extensionExample.html
-  # customization:
-  #   permalinks: permalinks.html
-  #   themes: themes.html
-  #   templates: templates.html
-  #   variables: variables.html
-  #   helpers: helpers.html
-  #   internationalization: internationalization.html
-  #   plugins: plugins.html
-  # miscellaneous:
-  #   troubleshooting: troubleshooting.html
-  #   contributing: contributing.html
-
+    handover: /advance_usage/handover.html
+    takeover: /advance_usage/takeover.html
+    switch_language: /advance_usage/switch_language.html
+    subscribe: /advance_usage/subscribe.html
+    unsubscribe: /advance_usage/unsubscribe.html
+    label_user: /advance_usage/label_user.html
+    trigger_event: /advance_usage/trigger_event.html
+  extension:
+    introduction: /extension/introduction.html
+    getting_started: /extension/getting_started.html
+    sending_message: /extension/sending_message.html
+    security: /extension/security.html
+    example: /extension/example.html
 api:
   core:
     overview: index.html
