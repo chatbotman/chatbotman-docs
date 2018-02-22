@@ -14,11 +14,11 @@ index:
     label_user: /advance_usage/label_user.html
     trigger_event: /advance_usage/trigger_event.html
   extension:
-    introduction: /extension/introduction.html
+    overview: /extension/index.html
     getting_started: /extension/getting_started.html
     sending_message: /extension/sending_message.html
     security: /extension/security.html
-    example: /extension/example.html
+    example: /extension/examples.html
 api:
   core:
     overview: index.html

@@ -1,2 +1,2 @@
-title: Extension example
+title: Examples and Demo
 ---
