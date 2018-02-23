@@ -20,5 +20,5 @@ First, create an intent that output `Chatbotman_TriggerEvent` action and output 
 Second, create an intent that accept `PromotionalMessage` event.
 ![](/images/advance_usage/trigger_event_step02.png)
 
-The output would be like this.
+This is the result.
 ![](/images/advance_usage/trigger_event_step03.png)
