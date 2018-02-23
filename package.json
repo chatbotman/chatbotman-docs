@@ -6,10 +6,10 @@
     "version": "3.5.0"
   },
   "scripts": {
-    "start": "hexo server",
+    "start": "rm -Rf ./public && hexo server",
     "build": "hexo generate && gulp",
     "eslint": "eslint .",
-    "deploy": "hexo generate && gulp && hexo deploy -g && rm -Rf ./public"
+    "deploy": "hexo generate && gulp && hexo deploy --generate"
   },
   "dependencies": {
     "cheerio": "^0.20.0",
