@@ -19,6 +19,10 @@ page:
 
 sidebar:
   index:
+    extension: Extension
+    sending_message: Sending Message
+    security: Security
+    example: Examples
     getting_started: Getting Started
     overview: Overview
     setup: Setup Your First Chatbot

@@ -1,14 +1,15 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "chatbotman-docs",
+  "version": "0.0.1",
   "private": true,
   "hexo": {
     "version": "3.5.0"
   },
   "scripts": {
+    "start": "rm -Rf ./public && hexo server",
     "build": "hexo generate && gulp",
     "eslint": "eslint .",
-    "deploy": "hexo deploy"
+    "deploy": "hexo generate && gulp && hexo deploy --generate"
   },
   "dependencies": {
     "cheerio": "^0.20.0",

@@ -7,7 +7,7 @@ Sometimes you may want to reply to your subscriber manually. Chatbotman support 
 To do that, you can just say "take over" and Chatbotman will not reply to particular user.
 
 Here is an example conversation.
-![](screenshots/takeover_example.png)
+![](/images/advance_usage/takeover_example.png)
 
 ## Pass control back to Chatbotman
 

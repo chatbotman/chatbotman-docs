@@ -44,21 +44,22 @@ hexo.extend.helper.register('page_nav', function() {
 });
 
 hexo.extend.helper.register('doc_sidebar', function(className) {
+  var showType = ["basic_usage", "advance_usage", "extension"]
   var type = (this.page.canonical_path.match(/\//g) || []).length === 0 ? 'index' : this.page.canonical_path.split('/')[0];
-
+  if(showType.indexOf(type) >= 0) {
+      type = "index";
+  }
   var sidebar = this.site.data.sidebar[type];
   var path = pathFn.basename(this.path);
+  var canonical_path = this.page.canonical_path;
   var result = '';
   var self = this;
   var prefix = 'sidebar.' + type + '.';
-
   _.each(sidebar, function(menu, title) {
     result += '<strong class="' + className + '-title">' + self.__(prefix + title) + '</strong>';
-
     _.each(menu, function(link, text) {
       var itemClass = className + '-link';
-      if (link === path) itemClass += ' current';
-
+      if (link === "/" + canonical_path) itemClass += ' current';
       result += '<a href="' + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
     });
   });
