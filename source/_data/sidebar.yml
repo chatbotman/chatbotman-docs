@@ -2,13 +2,13 @@ index:
   basic_usage:
     overview: /index.html
     setup: /basic_usage/setup.html
-    privateReply: /basic_usage/private_reply.html
-    customers: /basic_usage/customers.html
-    campaigns: /basic_usage/campaigns.html
+    subscribers: /basic_usage/subscribers.html
+    campaign: /basic_usage/campaign.html
   advance_usage:
     handover: /advance_usage/handover.html
     takeover: /advance_usage/takeover.html
     switch_language: /advance_usage/switch_language.html
+    private_reply: /advance_usage/private_reply.html
     subscribe: /advance_usage/subscribe.html
     unsubscribe: /advance_usage/unsubscribe.html
     label_user: /advance_usage/label_user.html
