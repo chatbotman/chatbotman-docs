@@ -44,7 +44,7 @@ hexo.extend.helper.register('page_nav', function() {
 });
 
 hexo.extend.helper.register('doc_sidebar', function(className) {
-  var showType = ["basic_usage", "advance_usage", "extension"]
+  var showType = ["basic_usage", "advance_usage", "extension", "reference"]
   var type = (this.page.canonical_path.match(/\//g) || []).length === 0 ? 'index' : this.page.canonical_path.split('/')[0];
   if(showType.indexOf(type) >= 0) {
       type = "index";
