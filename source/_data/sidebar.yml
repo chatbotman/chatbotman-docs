@@ -17,6 +17,9 @@ index:
     overview: /extension/index.html
     sending_message: /extension/sending_message.html
     security: /extension/security.html
+  reference:
+    list_of_actions: /reference/list_of_actions.html
+    list_of_events: /reference/list_of_events.html
 api:
   core:
     overview: index.html
