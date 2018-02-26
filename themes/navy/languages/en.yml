@@ -19,6 +19,9 @@ page:
 
 sidebar:
   index:
+    reference: Reference
+    list_of_actions: List of Actions
+    list_of_events: List of Events
     extension: Extension
     sending_message: Sending Message
     security: Security
