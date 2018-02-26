@@ -13,10 +13,10 @@ You can also build extension to further extend your chatbot capability by connec
 ## Features and other functions
 
   - [Facebook Broadcast API](https://developers.facebook.com/docs/messenger-platform/send-messages/broadcast-messages) via [Campaign](basic_usage/campaigns.html)
-  - [Handover protocol](https://developers.facebook.com/docs/messenger-platform/handover-protocol)
-  - [Built-in language switching](advanced_usage/switch_language.html)
-  - [Private reply to comments](advanced_usage/private_reply.html)
-  - [Trigger event]()
+  - [Handover protocol](advance_usage/handover.html)
+  - [Built-in language switching](advance_usage/switch_language.html)
+  - [Private reply to comments](advance_usage/private_reply.html)
+  - [Trigger event](advance_usage/trigger_event.html)
 
 ## How to use?
 
@@ -24,4 +24,4 @@ Go To [Chatbotman App](https://app.chatbotman.com/) first, then login with your 
 
 ### Requirements
 
-Please use [Google Chrome](https://www.google.com/chrome/) to use our Chatbotman app. We support both desktop and mobile version.
+Please use [Google Chrome](https://www.google.com/chrome/) to use Chatbotman. We support both desktop and mobile version.

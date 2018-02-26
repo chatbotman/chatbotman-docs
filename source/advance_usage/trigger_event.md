@@ -8,9 +8,9 @@ Trigger event is a Chatbotman built-in function that let you trigger Dialogflow 
 1. When you want to say something after the conversation end.
 2. When you want to add promotional message after replying the subscribe.
 
-## Implementation
+## How to use it?
 
-You need to output an action named `Chatbotman_TriggerEvent`. Chatbotman will detect this action name and trigger an event for you. 
+You need to output an action named `Chatbotman_TriggerEvent`. Chatbotman will detect this action name and trigger an event for you.
 
 Here is an example intent of trigger event.
 
