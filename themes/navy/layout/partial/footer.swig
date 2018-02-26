@@ -1,7 +1,7 @@
 <footer id="footer" class="wrapper">
   <div class="inner">
     <div id="footer-copyright">
-      &copy; {{ moment(Date.now()).year() }} <a href="https://github.com/hexojs/hexo/graphs/contributors" target="_blank">{{ config.author }}</a><br>
+      &copy; {{ moment(Date.now()).year() }} <a href="https://www.chatbotman.com/" target="_blank">{{ config.author }}</a><br>
       Documentation licensed under <a href="./LICENSE.html" target="_blank">MIT License</a>.
     </div>
     <div id="footer-links">
