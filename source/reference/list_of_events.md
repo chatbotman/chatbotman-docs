@@ -2,7 +2,7 @@ title: List of built in events
 ---
 | Action Name|Description|Accept Parameter Name|
 | -------- | -------- | -------- |
-| Chatbotman_Location|Trigger intent by Facebook Location|url|
+| Chatbotman_Location|Trigger intent by Facebook Location|url,latitude,longitude,title|
 | Chatbotman_Sticker|Trigger intent by Facebook Sticker|sticker_id|
 | Chatbotman_Image|Trigger intent by Facebook Image|url|
 | Chatbotman_File|Trigger intent by Facebook File|url|
