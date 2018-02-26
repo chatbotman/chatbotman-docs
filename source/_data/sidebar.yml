@@ -15,10 +15,8 @@ index:
     trigger_event: /advance_usage/trigger_event.html
   extension:
     overview: /extension/index.html
-    getting_started: /extension/getting_started.html
     sending_message: /extension/sending_message.html
     security: /extension/security.html
-    example: /extension/examples.html
 api:
   core:
     overview: index.html
